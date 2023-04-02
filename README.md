@@ -10,15 +10,15 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
 
-```git clone https://github.com/your-username/automation-practice-cypress.git```
+    ```git clone https://github.com/your-username/automation-practice-cypress.git```
 
 2. Install the dependencies by running the following command in the root directory of the project:
 
-```npm install```
+    ```npm install```
 
 3. Start the Cypress test runner by running the following command:
 
-```npm run cypress:open```
+    ```npm run cypress:open```
 
 4. Click on a test file in the Cypress test runner to run the tests in that file.
 
