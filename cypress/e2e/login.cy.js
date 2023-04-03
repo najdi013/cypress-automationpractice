@@ -1,5 +1,4 @@
-describe('', () => {
-})
+describe('', () => { })
 
 it('should log in and redirect to My Account', () => {
     cy.visit('http://automationpractice.pl/index.php')
