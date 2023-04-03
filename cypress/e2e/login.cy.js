@@ -1,11 +1,11 @@
-describe('', () => { })
+import LoginPage from '/cypress/pages/loginPage.js';
+
+describe('Login', () => { })
 
 it('should log in and redirect to My Account', () => {
     cy.visit('http://automationpractice.pl/index.php')
     cy.get('.login').click();
-    cy.get('#email').type('najdi013@gmail.com');
-    cy.get('#passwd').type('password');
-    cy.get('#SubmitLogin').click();
+    LoginPage.login('najdi013@gmail.com', 'password');
 
     // Verify redirection to "My account" page
     cy.get('.page-heading').should('have.text', 'My account');
